@@ -122,7 +122,7 @@ body{
     color: white;
     border: 1px solid #818080;
     border-radius: 20px;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 .eng-btn button:hover{
     padding: 11px 31px;
@@ -133,8 +133,10 @@ body{
     background: #181818;
     height: 100vh;
     overflow-y: auto;
+    margin-bottom: 80px;
     flex: 1;
 }
+
 .main-section .top-nav{
     padding: 20px 30px;
     background: rgb(18, 18, 18);
@@ -320,4 +322,117 @@ body{
     display: none;
 }
 
+.footer-section{
+    padding: 20px 40px;
+}
+.footer-section .footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px; 
+}
+.footer-section .footer .footer-links{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.footer-section .footer .footer-links .footer-column{
+    margin: 0 12px;
+}
+.footer-section .footer .footer-links div{
+    color: white;
+    font-weight: 600;
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+.footer-section .footer .footer-links ul li{
+    list-style: none;
+    margin: 6px 0;
+}
+.footer-section .footer .footer-links ul li a{
+    text-decoration: none;
+    color: #969393;
+    font-size: 14px;
+    cursor: pointer;
+}
+.footer-section .footer .footer-links ul li a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.footer .social-links i{
+    color: white;
+    background: #353434;
+    padding: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 5px;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .social-links i:hover{
+    background: #545353;
+}
 
+.hr{
+    margin: 20px 40px;
+    border: 0;
+    outline: 0;
+    margin-top: 40px;
+    border-top: 1px solid #111;   
+}
+
+.copyright{
+    padding: 0 40px;
+    color: #969393;
+    font-size: 15px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.preview{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right, #ae2896, #509bf5);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 12px 40px;
+}
+.preview h4{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: white;
+}
+.preview p{
+    font-size: 17px;
+    font-weight: 400;
+    color: white;
+}
+.preview button{
+    padding: 12px 30px;
+    border: 0;
+    border-radius: 20px;
+    outline: 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+}
+
+
+
+
+
+.main-section::-webkit-scrollbar{
+    background: transparent;
+}
+.main-section::-webkit-scrollbar-thumb{
+    background: transparent;
+    width: 10px;
+}
+.main-section:hover::-webkit-scrollbar-thumb{
+    background: #5c5b5b;
+    width: 5px;
+}
