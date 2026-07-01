@@ -23,7 +23,7 @@ body{
     margin-bottom: 10px;
 }
 .sidebar-nav .logo{
-    width: 120px;
+    width: 180px;
 }
 .sidebar-nav .logo img{
     width: 100%;
@@ -259,12 +259,14 @@ body{
 .play-btn span{
     width: 52px;
     height: 52px;
-    background: #1DB954;
+    background: rgba(168, 85, 247, 0.75);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.15);
+    box-shadow: 0 8px 25px rgba(168,85,247,.35);
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 8px 20px rgba(0,0,0,.4);
 }
 .play-btn i{
     color: black;
@@ -275,16 +277,12 @@ body{
     transform: translateY(0);
 }
 /* imp */
-
-
-
 .spotify-playlist-artist-playlist .card .item img{
     width: 180px;
     height: 180px;
     border-radius: 50%;
     object-fit: cover;
 }
-
 .spotify-playlist-artist-playlist{
     padding: 20px 35px;
 }
@@ -293,7 +291,6 @@ body{
     margin-left: 20px;
     margin-bottom: 20px;
 }
-
 .spotify-playlist-artist-playlist .item{
     min-width: 180px;
     width: 180px;
@@ -305,23 +302,18 @@ body{
     color: #fff;
     margin-top: 12px;
 }
-
 .spotify-playlist-artist-playlist .item p{
     color: #b3b3b3;
 }
-
-
 .spotify-playlist-artist-playlist .card{
     display: flex;
     gap: 20px;
     overflow-x: auto;
     scrollbar-width: none;
 }
-
 .spotify-playlist-artist-playlist .card::-webkit-scrollbar{
     display: none;
 }
-
 .footer-section{
     padding: 20px 40px;
 }
@@ -420,8 +412,6 @@ body{
     font-weight: 600;
     color: black;
 }
-
-
 .main-section::-webkit-scrollbar{
     background: transparent;
 }
